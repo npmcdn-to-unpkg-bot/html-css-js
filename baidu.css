@@ -1,0 +1,139 @@
+#top {
+	height: 50px;
+	margin: 0 auto;
+	padding: 0 0;
+	text-align: center;
+}
+
+#top-right-text {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#top-right-text ul li {
+	margin-right: 16px;
+	float: left;
+	list-style-type: none;
+	height: 20px;
+}
+
+.link {
+	font-size: 13px;
+	line-height: 13px;
+	height: 13px;
+	font-family: 宋体;
+}
+
+.unuser {
+	font-weight: bold;
+	color: #111;
+}
+
+.user {
+	color: #444;
+}
+
+#more-production {
+	position: relative;
+	top: -5px;
+	padding-top: 5px;
+	width: 60px;
+	color: white;
+	background-color: rgb(30, 134, 255);
+}
+
+#main img {
+	position: absolute;
+	left: 570px;
+	top: 120px;
+}
+
+#search {
+	width: 60%;
+	height: 30px;
+	position: absolute;
+	left: 25%;
+	top: 250px;
+}
+
+#search-box {
+	font-size: 14px;
+	border: 1px solid #919191;
+	border-right: none;
+	width: 70%;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+#search-button {
+	font-size: 14px;
+	color: white;
+	height: 32px;
+	width: 100px;
+	margin-left: -8px;
+	margin-top: 1px;
+	background-color: #4249ff;
+	border: none;
+	border-top: 1px solid #4249ff;
+	border-bottom: 1px solid #4249ff;
+}
+
+#bottom {
+	position: absolute;
+	left: 320px;
+	bottom: 30px;
+	width: 800px;
+}
+
+.erweima {
+	float: left;
+	margin-right: 20px;
+	width: 150px;
+	height: 60px;
+}
+
+.erweima img {
+	position: relative;
+	margin-right: 0;
+}
+
+.erweima div {
+	position: relative;
+	left: -20px;
+	top: 10px;
+	float: right;
+	font-size: 13px;
+	height: 40px;
+	color: #404040;
+}
+
+#message {
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	bottom: 10px;
+	left: 300px;
+}
+
+#message ul li {
+	margin-right: 10px;
+	font-size: 13px;
+	float: left;
+	list-style-type: none;
+	height: 20px;
+	margin-top: 40px;
+}
+
+#message ul li a {
+	text-decoration: underline;
+	color: #222;
+}
+
+#message p {
+	font-size: 13px;
+	position: absolute;
+	bottom: -16px;
+	margin-left: 40px;
+}
