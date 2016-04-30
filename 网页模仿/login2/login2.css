@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	background: url(images/bg.png) no-repeat;
+	width: 1020px;
+	height: 700px;
+	position: relative;
+}
+
+#login-title {
+	position: absolute;
+	font-size: 30px;
+	font-family: 微软雅黑;
+	font-weight: normal;
+	top: 53px;
+	left: 80px;
+	color: white;
+}
+
+#login-box {
+	position: absolute;
+	top: 170px;
+	left: 360px;
+	height: 340px;
+	width: 300px;
+	background-color: rgba(28, 28, 28, 0.2);
+	border-top: 3px solid #3ADE7E;
+	border-radius: 5px;
+}
+
+#username {
+	display: block;
+	width: 230px;
+	height: 37px;
+	position: relative;
+	top: 80px;
+	left: 35px;
+	border: none;
+	background-image: -webkit-linear-gradient(left, #C1C1C1 0, #C1C1C1 40px, #FFF 41px);
+	background-image: linear-gradient(left, #C1C1C1 0, #C1C1C1 40px, #FFF 41px);
+	text-indent: 53px;
+}
+
+#username + img {
+	position: relative;
+	top: 52px;
+	left: 47px;
+}
+
+#password {
+	display: block;
+	width: 230px;
+	height: 37px;
+	position: relative;
+	top: 70px;
+	left: 35px;
+	border: none;
+	background-image: -webkit-linear-gradient(left, #C1C1C1 0, #C1C1C1 40px, #FFF 41px);
+	background-image: linear-gradient(left, #C1C1C1 0, #C1C1C1 40px, #FFF 41px);
+	text-indent: 53px;
+}
+
+#password + img {
+	position: relative;
+	top: 42px;
+	left: 47px;
+}
+
+#verify {
+	display: block;
+	width: 80px;
+	height: 37px;
+	position: relative;
+	top: 60px;
+	left: 35px;
+	border: none;
+	font-size: 16px;
+	text-align: center;
+}
+
+#verify-num {
+	position: relative;
+	left: 130px;
+	top: 27px;
+}
+
+#change-pic {
+	text-decoration: none;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: white;
+	text-shadow: 1px 1px 1px #333;
+	position: relative;
+	left: 135px;
+	top: 20px;
+}
+
+#login-button {
+	background-color: #91C46C;
+	box-shadow: 1px 1px 2px #333;
+	border-color: #C8E5B3;
+	border-radius: 10px;
+	position: relative;
+	width: 230px;
+	height: 37px;
+	top: 70px;
+	left: 35px;
+	color: white;
+	text-shadow: 1px 1px 1px #333;
+	font-size: 16px;
+	font-family: 微软雅黑;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	background-color: #F3F3F3;
+	width: 1020px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+}
+
+#footer span {
+	font-family: 微软雅黑;
+	font-size: 14px;
+	font-weight: normal;
+	color: #7f7f7f;
+}
