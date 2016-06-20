@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>轮播图</title>
+	<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/carousel.js"></script>
+	<style type="text/css">
+		body,ul{
+			padding: 0;
+			margin: 0;
+		}
+		.banner {
+			position: absolute;
+			width: 640px;
+			height: 960px;
+		}
+		
+		.banner .btn {
+			cursor: pointer;
+			-webkit-transition: opacity .2s ease-in-out 0s;
+			-moz-transition: opacity .2s ease-in-out 0s;
+			transition: opacity .2s ease-in-out 0s;
+			display: block;
+			width: 50px;
+			height: 150px;
+			line-height: 150px;
+			background: rgba(99, 99, 99, 0.3);
+			border-radius: 20px;
+			text-align: center;
+			color: white;
+			font-size: 50px;
+			text-shadow: 1px 1px 1px #666;
+			z-index: 99;
+			opacity: 0;
+			margin: 0 10px;
+		}
+		
+		.banner .left {
+			position: absolute;
+			top: 395px;
+		}
+		
+		.banner .right {
+			position: absolute;
+			top: 395px;
+			right: 0;
+		}
+		
+		.banner:hover .left,
+		.banner:hover .right {
+			opacity: 1;
+		}
+		
+		.banner .box {
+			width: 640px;
+			height: 960px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		.banner .box ul {
+			position: absolute;
+		}
+		
+		.banner li {
+			position: absolute;
+		}
+		
+		.banner li.pic-1 {
+			left: 0;
+		}
+		
+		.banner li.pic-2 {
+			left: 640px;
+		}
+		
+		.banner li.pic-3 {
+			left: 1280px;
+		}
+		
+		.banner li.pic-4 {
+			left: 1920px;
+		}
+		
+		.banner li.pic-5 {
+			left: 2560px;
+		}
+		
+		.banner li.pic-6 {
+			left: 3200px;
+		}
+		
+		.banner li.pic-1-c {
+			left: 3840px;
+		}
+		
+		.banner li.pic-6-c {
+			left: -640px;
+		}
+		
+		
+	</style>
+</head>
+
+<body>
+	<div class="banner">
+		<span class="left btn">&lt;</span>
+		<div class="box">
+			<ul class="picture">
+				<li class="pic-6-c"><img src="images/Carousel/6.png"></li>
+				<li class="pic-1"><img src="images/Carousel/1.png" ></li>
+				<li class="pic-2"><img src="images/Carousel/2.jpg" ></li>
+				<li class="pic-3"><img src="images/Carousel/3.png" ></li>
+				<li class="pic-4"><img src="images/Carousel/4.png" ></li>
+				<li class="pic-5"><img src="images/Carousel/5.png" ></li>
+				<li class="pic-6"><img src="images/Carousel/6.png" ></li>
+				<li class="pic-1-c"><img src="images/Carousel/1.png"></li>
+			</ul>
+		</div>
+		<span class="right btn">&gt;</span>
+	</div>
+	
+</body>
+
+</html>
